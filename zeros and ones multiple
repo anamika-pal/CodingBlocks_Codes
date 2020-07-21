@@ -4,7 +4,7 @@
 #include <queue>
 #include <vector>
 using namespace std;
-// done[x] is true iff x consists of only zeroes and ones
+// done[x] is true iff x consists of only zeroes and one
 bool done[20001];
 struct Node {
     char digit; // '0' or '1'
